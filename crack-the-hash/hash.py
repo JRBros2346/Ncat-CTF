@@ -20,9 +20,8 @@ def encrypt(message):
 
     return xor_encrypted
 
-original = ''.join(random.choices(string.ascii_letters, k=10))
+original = ''.join(random.choices(string.ascii_uppercase, k=10))
 encrypted = encrypt(original)
-print(original)
 print(f"Encrypted message: {encrypted}")
 guess = input("Guess: ").strip()
 if guess == original:
