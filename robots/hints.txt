@@ -1,0 +1,7 @@
+CTF Challenge: "fsociety's Backdoor Hunt"
+
+Background Story:
+You’ve infiltrated Evil Corp’s network, but you know they’ve set up a backdoor to monitor you. The challenge is to identify the backdoor server, hidden among 100 potential IP addresses. You have 5 attempts to guess the correct one, and after 3 wrong guesses, you will receive a hint.
+
+Objective:
+Guess the correct IP address where the backdoor server is located. The hint system will assist you as you close in on the solution.
